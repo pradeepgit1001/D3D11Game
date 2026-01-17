@@ -1,5 +1,14 @@
 #include <DX3D/Graphics/SwapChain.h>
 
+/**
+ * @brief Construct a SwapChain wrapper.
+ *
+ * Creates a DXGI swap chain for the given native window and size, configures
+ * the back buffer format/count and creates the initial render target view.
+ *
+ * @param desc SwapChain descriptor (window handle, size)
+ * @param gdesc GraphicsResourceDesc providing device/factory/logger
+ */
 dx3d::SwapChain::SwapChain(const SwapChainDesc& desc, const GraphicsResourceDesc& gdesc) : 
 	GraphicsResource(gdesc)
 {
@@ -23,12 +32,23 @@ dx3d::SwapChain::SwapChain(const SwapChainDesc& desc, const GraphicsResourceDesc
 	reloadBuffers();
 }
 
+/**
+ * @brief Present the current back buffer to the screen.
+ *
+ * @param vsync If true, present is synchronized to vertical refresh (vsync).
+ */
 void dx3d::SwapChain::present(bool vsync)
 {
 	DX3DGraphicsLogThrowOnFail(m_swapChain->Present(vsync, 0),
 		"Present failed.");
 }
 
+/**
+ * @brief (Re)load back-buffer resources after swap chain creation or resize.
+ *
+ * Gets the back buffer texture from the DXGI swap chain and creates an
+ * ID3D11RenderTargetView for it.
+ */
 void dx3d::SwapChain::reloadBuffers()
 {
 	Microsoft::WRL::ComPtr<ID3D11Texture2D> buffer{};
