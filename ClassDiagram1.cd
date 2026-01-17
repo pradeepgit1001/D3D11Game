@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="dx3d::Display">
+    <Position X="11.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAgAAAAAAAAQAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DX3D\Include\DX3D\Game\Display.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dx3d::Base" Collapsed="true">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgIAEAgAAAAQAA=</HashCode>
+      <FileName>DX3D\Include\DX3D\Core\Base.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dx3d::Window">
+    <Position X="11.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAQAAAAAAAAAACAIAAAA=</HashCode>
+      <FileName>DX3D\Include\DX3D\Window\Window.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dx3d::Game">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAgAIAAIAAAAAAAAQAAAAAAiAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>DX3D\Include\DX3D\Game\Game.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dx3d::GraphicsEngine">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAACAAAAAAAAAAASCAA=</HashCode>
+      <FileName>DX3D\Source\DX3D\Graphics\GraphicsEngine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dx3d::GraphicsDevice">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ggAAAAAQAgAAAAAIIAAAAAAAAAAAABBAAAAEFAAAAAA=</HashCode>
+      <FileName>DX3D\Source\DX3D\Graphics\GraphicsDevice.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dx3d::Logger">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="dx3d::Logger::LogLevel" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>DX3D\Include\DX3D\Core\Logger.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAIAAAAAAAAACAAAAAAAAAAAAAAgCAAAAAA=</HashCode>
+      <FileName>DX3D\Include\DX3D\Core\Logger.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dx3d::SwapChain">
+    <Position X="9.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAQAQAAAAAQAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DX3D\Source\DX3D\Graphics\SwapChain.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dx3d::DeviceContext">
+    <Position X="7.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAQAAAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>DX3D\Source\DX3D\Graphics\DeviceContext.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dx3d::Rect">
+    <Position X="16.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAQAAAAAgAACAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DX3D\Include\DX3D\Math\Rect.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dx3d::GraphicsResource">
+    <Position X="8.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAACAAACAA=</HashCode>
+      <FileName>DX3D\Source\DX3D\Graphics\GraphicsResource.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dx3d::Vec4">
+    <Position X="18" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhgAwAAAAA=</HashCode>
+      <FileName>DX3D\Include\DX3D\Math\Vec4.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="dx3d::BaseDesc">
+    <Position X="14.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DX3D\Include\DX3D\Core\Common.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="dx3d::WindowDesc">
+    <Position X="16.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DX3D\Include\DX3D\Core\Common.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="dx3d::DisplayDesc">
+    <Position X="16.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAEAAAAAAA=</HashCode>
+      <FileName>DX3D\Include\DX3D\Core\Common.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="dx3d::GraphicsEngineDesc">
+    <Position X="16.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DX3D\Include\DX3D\Core\Common.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="dx3d::GraphicsDeviceDesc">
+    <Position X="14.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DX3D\Include\DX3D\Core\Common.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="dx3d::SwapChainDesc">
+    <Position X="14.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DX3D\Include\DX3D\Core\Common.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="dx3d::GameDesc">
+    <Position X="18" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>DX3D\Include\DX3D\Core\Common.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="dx3d::GraphicsResourceDesc">
+    <Position X="18" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAACAAAgAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>DX3D\Source\DX3D\Graphics\GraphicsResource.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

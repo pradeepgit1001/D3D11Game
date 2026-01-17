@@ -1,0 +1,27 @@
+# Build artifacts
+Bin/
+Intermediate/
+*.o
+*.obj
+*.exe
+*.dll
+
+# Visual Studio
+.vs/
+*.vcxproj.user
+*.sln.DotSettings
+Debug/
+Release/
+x64/
+x86/
+
+# IDE
+.vscode/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc
+*.log
